@@ -7,7 +7,7 @@ fun twoSum(nums:List<Int>, target:Int):List<Int> {
 data class NumWithPosition(val pos:Int, val value:Int)
 
 tailrec fun List<NumWithPosition>.findPositionOfNumbersMatchingTarget(target:Int):List<Int> {
-    if (isEmpty() || first().value >= target) return emptyList()
+    if (isEmpty() || first().value > target/2) return emptyList()
     val firstNum = first()
     val secondNum =  drop(1).first { it.value + firstNum.value >= target }
     return if (firstNum.value + secondNum.value == target)
