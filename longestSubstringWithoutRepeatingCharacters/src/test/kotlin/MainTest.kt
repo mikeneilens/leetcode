@@ -28,4 +28,7 @@ class MainTest: StringSpec({
     "When Input: s = abcdefaghib length of longest substring is 9" {
         lengthOfLongestSubstring("abcdefaghib") shouldBe 9
     }
+    "This tests a string containing approx 1000 words as a performance test" {
+        lengthOfLongestSubstring(longString) shouldBe 16
+    }
 })
