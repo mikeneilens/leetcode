@@ -21,4 +21,9 @@ class MainTest: StringSpec({
     "with 'cbbd' longest palnddrome is bb" {
         longestPalindrome("cbbd") shouldBe "bb"
     }
+    "test with large palindrome data" {
+        longestPalindrome(largePalindrome) shouldBe "asilive\n" +
+                "doninemeninterpretninemeninod\n" +
+                "evilisa"
+    }
 })
