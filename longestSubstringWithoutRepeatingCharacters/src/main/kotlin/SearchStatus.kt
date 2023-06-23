@@ -17,7 +17,6 @@ data class SearchStatus(val s:String, var rangeStart:Int = 0, var rangeEnd:Int =
 
     fun startNewRange() {
         rangeStart += indexOfDuplicate() + 1
-        rangeEnd = rangeStart + 1
     }
 }
 
