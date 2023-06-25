@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-06-25T18:24:24" hostname="MacBook-Pro-2.local" time="0.032">
+  <properties/>
+  <testcase name="An empty string produces an empty list" classname="MainTest" time="0.022"/>
+  <testcase name="'1' produces as an empty list" classname="MainTest" time="0.002"/>
+  <testcase name="'2' produces ['a','b','c']" classname="MainTest" time="0.001"/>
+  <testcase name="'23' produces ['ad','ae','af','bd','be','bf','cd','ce','cf',]" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
