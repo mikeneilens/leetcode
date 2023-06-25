@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-06-25T16:49:49" hostname="MacBook-Pro-2.local" time="0.032">
+  <properties/>
+  <testcase name="Input: nums = [-1,0,1,2,-1,-4] Output: [[-1,-1,2],[-1,0,1]]" classname="MainTest" time="0.025"/>
+  <testcase name="Input: nums = [0,1,1] Output: []" classname="MainTest" time="0.001"/>
+  <testcase name="Input: nums = [0,0,0] Output: []" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
