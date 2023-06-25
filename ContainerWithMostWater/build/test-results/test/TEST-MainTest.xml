@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-06-25T14:10:52" hostname="MacBook-Pro-2.local" time="0.032">
+  <properties/>
+  <testcase name="When line1 = 6, line2 = 5 and distance between lines is 4 then area is 4 X 5 = 20" classname="MainTest" time="0.02"/>
+  <testcase name="When line1 = 5, line2 = 7 and distance between lines is 4 then area is 4 X 5 = 20" classname="MainTest" time="0.001"/>
+  <testcase name="max area using first element of [1,8,6] is 2 which is formed from element 1 and element 6" classname="MainTest" time="0.001"/>
+  <testcase name="max area for [1,8,6,2,5,4,8,3,7] is 49" classname="MainTest" time="0.0"/>
+  <testcase name="max area for [1,1] is 1" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
