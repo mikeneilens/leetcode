@@ -4,10 +4,10 @@ import io.kotest.matchers.shouldBe
 class MainTest: StringSpec ({
 
     "An empty string produces an empty list" {
-        letterCombinations("") shouldBe emptyList<String>()
+        letterCombinations("") shouldBe emptyList()
     }
     "'1' produces as an empty list" {
-        letterCombinations("1") shouldBe emptyList<String>()
+        letterCombinations("1") shouldBe emptyList()
     }
     "'2' produces ['a','b','c']" {
         letterCombinations("2") shouldBe listOf("a", "b", "c")
