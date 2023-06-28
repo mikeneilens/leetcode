@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-06-28T19:21:17" hostname="MacBook-Pro-2.local" time="0.047">
+  <properties/>
+  <testcase name="inserting a after 0 into abc gives axyz" classname="MainTest" time="0.023"/>
+  <testcase name="inserting a after 1 into abc gives xayz" classname="MainTest" time="0.001"/>
+  <testcase name="inserting a after 2 into abc gives xyaz" classname="MainTest" time="0.001"/>
+  <testcase name="inserting a after 3 into abc gives xyza" classname="MainTest" time="0.001"/>
+  <testcase name="addBrace to Set('()' witn n = 2 should return set of '(())', '(),()' )" classname="MainTest" time="0.001"/>
+  <testcase name="addBrace to Set('()' witn n = 3 should return set of '((()))','(()())','(())()','()(())','()()()' )" classname="MainTest" time="0.001"/>
+  <testcase name="when n=0 generate an empty set" classname="MainTest" time="0.001"/>
+  <testcase name="when n=1 generate paranthesis of ()" classname="MainTest" time="0.0"/>
+  <testcase name="when n=2 generate paranthesis of '(())', '(),()'" classname="MainTest" time="0.0"/>
+  <testcase name="when n=3 generate paranthesis of '((()))','(()())','(())()','()(())','()()()'" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
