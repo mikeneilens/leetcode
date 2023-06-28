@@ -32,5 +32,7 @@ class MainTest: StringSpec({
     "when n=3 generate paranthesis of '((()))','(()())','(())()','()(())','()()()' " {
         generateParenthesis(3) shouldBe setOf("((()))","(()())","(())()","()(())","()()()")
     }
-
+    "when n=8 performance test " {
+        generateParenthesis(8)
+    }
 })
