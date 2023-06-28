@@ -19,4 +19,5 @@ fun <T>List<T>.insertAfter(t:T, n:Int):List<T> =
     else foldIndexed(listOf()){i,a,v ->
         if (i != n ) a + v else a + t + v
     }
+//general purpose utility that generates a new string with substring s inserted at position n.
 fun String.insertAfter(s:String,n:Int) = toList().insertAfter(s,n).joinToString("")
