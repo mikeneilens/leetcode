@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-06-29T18:43:27" hostname="MacBook-Pro-2.local" time="0.04">
+  <properties/>
+  <testcase name="with [1] after swapNode gives [1]" classname="MainTest" time="0.026"/>
+  <testcase name="with [1,2] after swapNode gives [2,1]" classname="MainTest" time="0.001"/>
+  <testcase name="with [1,2,3,4] after swapNode gives [2,1,4,3]" classname="MainTest" time="0.0"/>
+  <testcase name="with [] swapping pairs of nodes gives []" classname="MainTest" time="0.001"/>
+  <testcase name="with [1] swapping pairs of nodes gives [1]" classname="MainTest" time="0.001"/>
+  <testcase name="with [1,2,3,4] swaping pairs of nodes gives [2,1,4,3]" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
