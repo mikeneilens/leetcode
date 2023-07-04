@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-07-04T20:26:43" hostname="MacBook-Pro-2.local" time="0.04">
+  <properties/>
+  <testcase name="for array [0] the minimum number of jumps is zero" classname="MainTest" time="0.023"/>
+  <testcase name="for array [1,0] the minimum number of jumps is 1" classname="MainTest" time="0.0"/>
+  <testcase name="for array [1,2,0] the minimum number of jumps is 2" classname="MainTest" time="0.001"/>
+  <testcase name="for array [2,1,0] the minimum number of jumps is 1" classname="MainTest" time="0.001"/>
+  <testcase name="Input: nums = [2,3,0,1,4] Output: 2" classname="MainTest" time="0.0"/>
+  <testcase name="Input: nums = [2,3,1,1,4] Output: 2" classname="MainTest" time="0.001"/>
+  <testcase name="Input: nums = [1,0,2] Output: is not possible so return Int.MAX_VALUE" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
