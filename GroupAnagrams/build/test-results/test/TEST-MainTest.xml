@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MainTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-07-16T16:12:29" hostname="MacBook-Pro-2.local" time="0.044">
+<testsuite name="MainTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-07-16T16:15:52" hostname="MacBook-Pro-2.local" time="0.048">
   <properties/>
-  <testcase name="With Input: [], Output: []" classname="MainTest" time="0.019"/>
+  <testcase name="With Input: [], Output: []" classname="MainTest" time="0.022"/>
   <testcase name="With Input: [''], Output: [['']]" classname="MainTest" time="0.002"/>
   <testcase name="With Input: ['a'], Output: [['a']]" classname="MainTest" time="0.001"/>
-  <testcase name="With Input:['eat','tea','tan','ate','nat','bat'], Output:[['bat'],['nat','tan'],['ate','eat','tea']]" classname="MainTest" time="0.017"/>
+  <testcase name="With Input:['eat','tea','tan','ate','nat','bat'], Output:[['bat'],['nat','tan'],['ate','eat','tea']]" classname="MainTest" time="0.016"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
